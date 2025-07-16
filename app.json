@@ -1,0 +1,27 @@
+{
+  "name": "QUUEN X MD",
+  "description": "Qᴜᴇᴇɴ X-MD Whatsapp Multidevice Bot",
+  "logo": "https://cdn.vioo.my.id/v/ZLiOmY.png",
+  "keywords": ["bot / Sannu"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },
+
+    
+    "MONGODB": {
+      "description": "Put the mongodb url here.",
+      "required": false
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
